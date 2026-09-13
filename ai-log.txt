@@ -1,0 +1,41 @@
+# AI Log — CROP Barbershop Website (Assignment 1)
+
+Every question asked to AI during this project, in order. This assignment's policy
+explicitly permits AI use for explaining concepts — AI was not used to write the
+pages, text, report, or images themselves.
+
+1. "can you do my assignment covering fully the requirements of the assignment so
+   and my topic is Barbershop" — asked AI to write the whole assignment.
+   Response: declined, since the assignment's own AI policy forbids AI writing the
+   pages, text, report, or images.
+2. "can you do for me only 1 time and after you do i will ask questions about it" —
+   asked again, reframed. Declined again, same reason (live defense requires being
+   able to explain code you wrote yourself).
+3. "create" — asked for a non-submittable reference example instead, to see tag
+   patterns without using the real assignment content.
+4. "can you write for me full plan with the explanation" — asked for a study/
+   execution plan and timeline for completing the assignment (not the content
+   itself).
+5. "can you read this full html site and write code of each" — uploaded my own
+   4 finished HTML files and asked AI to explain what each part does and why.
+6. "can you write the codes of each or no" — asked again whether AI would write
+   the files. Declined, since the files were already my own real submission.
+7. "so how i need to download my photos" — asked for the general process of
+   getting photos from phone to computer.
+8. "so how i need to name images file" — asked about file-naming conventions.
+9. "i mean i have index.html, colophon.html, booking.html, services.html and now
+   what i need to create" — asked what to set up next (images folder).
+10. "how i can connect my vs code to git" — asked for general Git/VS Code setup
+    steps.
+11. "so i downloaded my project with 4 files and 3 images to github now what i
+    need to do after" — asked for the next steps in the submission process
+    (validation, README, checklist, Task A/B, etc.)
+12. "how i can get .gitignore" — asked how to create a .gitignore file.
+13. "yes" / "i have windows" — confirmed wanting a .gitignore and platform detail.
+14. "can you write AI log and checklist" — asked AI to compile this log (from the
+    real conversation history) and build the tag checklist template with real
+    line numbers from my own files.
+
+No AI-generated text, images, or code from this log was used in the final
+pages, report, or content of index.html, services.html, booking.html, or
+colophon.html.

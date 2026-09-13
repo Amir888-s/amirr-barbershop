@@ -1,0 +1,104 @@
+CROP BARBERSHOP - ASSIGNMENT 1 TAG CHECKLIST
+Student: Amir Kabdilmalik
+Checked: 13 September 2026
+
+EVERY PAGE
+Requirement                         File and line                              Student
+DOCTYPE                             index.html:1; services.html:1;             Amir Kabdilmalik                                    
+                                    booking.html:1; colophon.html:1
+html lang                           index.html:2; services.html:2;             Amir Kabdilmalik
+                                    booking.html:2; colophon.html:2
+meta charset                        index.html:4; services.html:4;             Amir Kabdilmalik
+                                    booking.html:4; colophon.html:4
+meta viewport                       index.html:5; services.html:5;             Amir Kabdilmalik
+                                    booking.html:5; colophon.html:5
+meta description                    index.html:6; services.html:6;             Amir Kabdilmalik
+                                    booking.html:6; colophon.html:6
+meta author                         index.html:7; services.html:7;             Amir Kabdilmalik
+                                    booking.html:7; colophon.html:7
+unique title                        index.html:8; services.html:8;             Amir Kabdilmalik
+                                    booking.html:8; colophon.html:8
+author HTML comment                 index.html:11; services.html:11;           Amir Kabdilmalik
+                                    booking.html:11; colophon.html:11
+header                              index.html:12; services.html:12;           Amir Kabdilmalik
+                                    booking.html:12; colophon.html:12
+nav with relative-link list         index.html:14-21; services.html:14-21;     Amir Kabdilmalik
+                                    booking.html:14-21; colophon.html:14-21
+main                                index.html:24; services.html:24;           Amir Kabdilmalik
+                                    booking.html:24; colophon.html:24
+exactly one h1                      index.html:25; services.html:25;           Amir Kabdilmalik
+                                    booking.html:25; colophon.html:25
+footer/contact/copyright entity     index.html:74-77; services.html:89-92;     Amir Kabdilmalik
+                                    booking.html:75-78; colophon.html:49-52
+two why-comments                    index.html:11,47; services.html:11,86;     Amir Kabdilmalik
+                                    booking.html:11,31,55; colophon.html:11,34
+
+STRUCTURE, DATA AND LISTS
+section                             index.html:30                              Amir Kabdilmalik
+article                             index.html:32                              Amir Kabdilmalik
+aside                               index.html:37                              Amir Kabdilmalik
+figure and figcaption               index.html:49-51                           Amir Kabdilmalik
+table                               services.html:30                           Amir Kabdilmalik
+caption                             services.html:31                           Amir Kabdilmalik
+thead                               services.html:32                           Amir Kabdilmalik
+tbody                               services.html:39                           Amir Kabdilmalik
+th with scope col and row           services.html:34,41                        Amir Kabdilmalik
+nested list                         services.html:67-73                        Amir Kabdilmalik
+ordered list with attribute         services.html:61                           Amir Kabdilmalik
+definition list/dt/dd               services.html:77-81                        Amir Kabdilmalik
+
+LINKS AND IMAGES
+external target and rel             services.html:86                           Amir Kabdilmalik
+mailto link                         index.html:75                               Amir Kabdilmalik
+tel link                            index.html:45                               Amir Kabdilmalik
+two same-page id links              index.html:28                              Amir Kabdilmalik
+three images with meaningful alt    index.html:50,54,58                         Amir Kabdilmalik
+
+TEXT AND GENERAL ELEMENTS
+strong                              index.html:13                              Amir Kabdilmalik
+em                                  index.html:34                              Amir Kabdilmalik
+b                                   index.html:26                              Amir Kabdilmalik
+i                                   services.html:26                           Amir Kabdilmalik
+mark                                services.html:26                           Amir Kabdilmalik
+small                               index.html:70                              Amir Kabdilmalik
+sub and sup                         services.html:86                           Amir Kabdilmalik
+two abbr with title                 index.html:39; services.html:78            Amir Kabdilmalik
+blockquote                          index.html:66                              Amir Kabdilmalik
+q                                   index.html:69                              Amir Kabdilmalik
+cite                                index.html:69                              Amir Kabdilmalik
+code                                colophon.html:29                           Amir Kabdilmalik
+pre                                 colophon.html:35                           Amir Kabdilmalik
+kbd                                 colophon.html:39                           Amir Kabdilmalik
+samp                                colophon.html:39                           Amir Kabdilmalik
+hr                                  services.html:85                           Amir Kabdilmalik
+br                                  index.html:45                              Amir Kabdilmalik
+four different entities             index.html:28 (&nbsp;); index.html:45        Amir Kabdilmalik
+                                    (&ndash;); index.html:51 (&mdash;);
+                                    index.html:55 (&amp;); index.html:76 (&copy;)
+div with why-comment                index.html:47-48                           Amir Kabdilmalik
+span with why-comment               services.html:86                           Amir Kabdilmalik
+
+FORM
+form method and action              booking.html:30                            Amir Kabdilmalik
+no-server comment                   booking.html:31                            Amir Kabdilmalik
+fieldset and legend                 booking.html:32-33                         Amir Kabdilmalik
+connected labels and ids            booking.html:35-38                         Amir Kabdilmalik
+input text                          booking.html:35                            Amir Kabdilmalik
+input email                         booking.html:36                            Amir Kabdilmalik
+input tel                           booking.html:37                            Amir Kabdilmalik
+input number                        booking.html:38                            Amir Kabdilmalik
+input date                          booking.html:44                            Amir Kabdilmalik
+radio group                         booking.html:57-59                         Amir Kabdilmalik
+checkbox                            booking.html:62                            Amir Kabdilmalik
+select and options                  booking.html:46-51                         Amir Kabdilmalik
+textarea                            booking.html:61                            Amir Kabdilmalik
+required and placeholder            booking.html:35                            Amir Kabdilmalik
+submit and reset buttons            booking.html:65                            Amir Kabdilmalik
+
+MANUAL FINAL CHECKS
+[ ] Replace three SVG cards with photographs taken by the student.
+[ ] Replace the public slogan with a personally collected quote, real name and date.
+[ ] Add the signed and dated photograph of the hand-drawn Task A sketch to report.pdf.
+[ ] Verify phone, opening hours and price with the chosen CROP branch.
+[ ] Re-run W3C validation after all replacements; target: zero errors.
+[ ] Complete at least six Git commits across three different days.
