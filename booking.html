@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A student-built appointment request form for CROP Barbershop in Astana.">
+    <meta name="author" content="Amir Kabdilmalik">
+    <title>CROP Barbershop Astana | Booking</title>
+</head>
+<body>
+    <!-- Author: Amir Kabdilmalik. The same navigation order supports predictable movement through all project pages. -->
+    <header>
+        <p><strong>CROP Barbershop Astana</strong></p>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="colophon.html">Colophon</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Request an Appointment</h1>
+        <p>This form collects the details needed for a haircut request: contact information, preferred date, service and a short note. It is a classroom demonstration and is not connected to CROP&rsquo;s real booking system. For a real appointment, call the branch or use the official booking link. Do not enter sensitive information here.</p>
+
+        <section aria-labelledby="form-heading">
+            <h2 id="form-heading">Booking details</h2>
+            <form method="get" action="booking.html">
+                <!-- There is no server behind this form yet, so pressing Submit only reloads this local page with values in the URL. -->
+                <fieldset>
+                    <legend>Your contact information</legend>
+
+                    <p><label for="full-name">Full name:</label><br><input type="text" id="full-name" name="full-name" placeholder="Your full name" required></p>
+                    <p><label for="email">Email:</label><br><input type="email" id="email" name="email" placeholder="name@example.com" required></p>
+                    <p><label for="phone">Phone:</label><br><input type="tel" id="phone" name="phone" placeholder="+7 700 000 00 00" required></p>
+                    <p><label for="age">Age:</label><br><input type="number" id="age" name="age" min="1" max="100" required></p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Appointment preferences</legend>
+
+                    <p><label for="visit-date">Preferred date:</label><br><input type="date" id="visit-date" name="visit-date" required></p>
+                    <p><label for="service">Service:</label><br>
+                        <select id="service" name="service" required>
+                            <option value="">Select a service</option>
+                            <option value="mens-haircut">Men&rsquo;s haircut</option>
+                            <option value="childrens-haircut">Children&rsquo;s haircut</option>
+                            <option value="beard-care">Beard care</option>
+                            <option value="toning">Hair toning</option>
+                        </select>
+                    </p>
+
+                    <!-- Radio buttons share one name because the visitor must select only one preferred time period. -->
+                    <p>Preferred time:</p>
+                    <p><input type="radio" id="morning" name="time-period" value="morning" required> <label for="morning">Morning</label></p>
+                    <p><input type="radio" id="afternoon" name="time-period" value="afternoon"> <label for="afternoon">Afternoon</label></p>
+                    <p><input type="radio" id="evening" name="time-period" value="evening"> <label for="evening">Evening</label></p>
+
+                    <p><label for="notes">Haircut notes:</label><br><textarea id="notes" name="notes" rows="5" cols="40" placeholder="Describe the style or length you prefer"></textarea></p>
+                    <p><input type="checkbox" id="confirmation" name="confirmation" required> <label for="confirmation">I understand that this student form does not create a real booking.</label></p>
+                </fieldset>
+
+                <p><button type="submit">Submit request</button> <button type="reset">Reset form</button></p>
+            </form>
+        </section>
+
+        <aside>
+            <h2>What happens today?</h2>
+            <p>Because the action points back to this local file, the browser reads the fields, creates a query string and reloads the page. No employee receives the request, no database stores it, and no confirmation message is sent. Server-side processing will be added in a later course assignment.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Contact: <a href="mailto:crop.student.project@example.com">crop.student.project@example.com</a> | <a href="tel:+77080852080">+7 708 085 20 80</a></p>
+        <p><small>&copy; 2026 Amir Kabdilmalik. Student project about CROP Barbershop.</small></p>
+    </footer>
+</body>
+</html>
+ 
