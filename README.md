@@ -21,7 +21,7 @@ No installation, web server, CSS, or JavaScript is required.
 
 The assignment requires evidence that only the student can collect. Before submission:
 
-1. Replace the three SVG cards inside `images/` with three photographs taken personally at CROP. Either keep the PNG filenames or update the three `src` attributes in `index.html`.
+1. Replace the three PNG cards inside `images/` with three photographs taken personally at CROP. Either keep the PNG filenames or update the three `src` attributes in `index.html`.
 2. Replace the public CROP slogan on `index.html` with the exact words of a person interviewed by the student. Add that person's real name and the real interview date.
 3. Add a signed, dated photograph of the hand-drawn Task A structure sketch to the report.
 4. Confirm the selected branch's current phone number, opening hours, and all prices.
